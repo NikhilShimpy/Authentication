@@ -1,6 +1,6 @@
 // setting up firebase with our website
 const firebaseApp = firebase.initializeApp({
-   your config
+   //your config
 });
 const db = firebaseApp.firestore();
 const auth = firebaseApp.auth();
