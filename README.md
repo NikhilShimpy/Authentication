@@ -18,13 +18,16 @@ A simple web-based authentication system using **Firebase Authentication**. User
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
 
+```text
 authentication/
-  ├── index.html # UI for Sign In / Sign Up
-  ├── style.css # Styling the page
-  ├── main.js # JavaScript + Firebase integration
-  └── README.md # Project documentation
+├── index.html       # Main HTML page with email/password form
+├── style.css        # Custom styling for the UI
+├── main.js          # Firebase authentication logic
+└── README.md        # Project documentation
+```
+
 ---
 
 ## ⚙️ Firebase Setup – Step-by-Step
@@ -57,6 +60,7 @@ authentication/
 6. Click **Save**
 
 ---
+
 Example:
 ```js
 const firebaseApp = firebase.initializeApp({
@@ -83,6 +87,7 @@ cd Authentication
 
 # Run the website
 ```
+
 ---
 
 ## 📌 Contributing
