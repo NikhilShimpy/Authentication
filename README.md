@@ -15,10 +15,10 @@ A simple web-based authentication system using **Firebase Authentication**. User
 
 ## 📂 Project Structure
 authentication/
-├── index.html
-├── style.css
-├── main.js
-└── README.md
+├── index.html # UI for Sign In / Sign Up
+├── style.css # Styling the page
+├── main.js # JavaScript + Firebase integration
+└── README.md # Project documentation
 ---
 
 ## ⚙️ Firebase Setup – Step-by-Step
